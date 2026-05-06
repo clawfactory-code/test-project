@@ -4,6 +4,8 @@ First standalone project repo for `elimaine.com/test`.
 
 This repo proves the pattern where a project lives independently under `clawfactory-code` and is listed by the `elimaine-com-refresh` host site.
 
+Implementation work is proposed through PRs and merged only after human approval.
+
 ## Local Development
 
 ```sh

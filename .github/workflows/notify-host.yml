@@ -1,0 +1,15 @@
+name: Notify host
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Document host refresh trigger
+        run: |
+          echo "This project is intended to notify clawfactory-code/elimaine-com-refresh after main changes."
+          echo "Wire this to repository_dispatch once the host repo accepts a refresh workflow secret."
